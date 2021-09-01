@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * main - Check description
- * Description: It prints the word Holberton, followed by a new line.
- * Return: 0 on success.
+ * main - prints Holberton, Followed by a newline
+ * Return: Always 0 on (success)
  */
 
 int main(void)
 {
-	char c[9] = "Holberton";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
+
 	return (0);
 }
