@@ -1,10 +1,10 @@
 #include <stdio.h>
 
- /**
- * main - print first 98 Fibonacci nummbers without using long long, malloc,
- * pointers, array/tables, or structures
- * Return: Always 0 0n (success)
- */
+/**
+* main - print the first 98 fibonacci numbers.
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
@@ -32,8 +32,8 @@ int main(void)
 	for (; counter < 99; counter++)
 	{
 		overflow = (a_tail + b_tail) / 1000000000;
-		sum_tail = (a_tail + b_tail) -(1000000000 * overflow);
-		sum_head = (a_head + b_head) +overflow;
+		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
+		sum_head = (a_head + b_head) + overflow;
 
 		printf(", %lu%lu", sum_head, sum_tail);
 
