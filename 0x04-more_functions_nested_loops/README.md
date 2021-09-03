@@ -18,32 +18,32 @@
 
 # Tasks
 
-#1-isdigit
+# 0. isupper
 Write a function that checks for uppercase character.
 
-Prototype: int _isupper(int c);
-Returns 1 if c is uppercase
-Returns 0 otherwise
+* Prototype: int _isupper(int c);
+* Returns 1 if c is uppercase
+* Returns 0 otherwise
 FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
 
-<h6>1-isdigit</h6>
+# 1. isdigit
 Write a function that checks for a digit (0 through 9).
 
-Prototype: int _isdigit(int c);
-Returns 1 if c is a digit
-Returns 0 otherwise
+* Prototype: int _isdigit(int c);
+* Returns 1 if c is a digit
+* Returns 0 otherwise
 FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
 
 # 2. Collaboration is multiplication
 Write a function that multiplies two integers.
 
-Prototype: int mul(int a, int b);
+* Prototype: int mul(int a, int b);
 
 #  3. The numbers speak for themselves
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
-Prototype: void print_numbers(void);
-You can only use _putchar twice in your code
+* Prototype: void print_numbers(void);
+* You can only use _putchar twice in your code
 
 # 4. I believe in numbers and signs
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
@@ -102,5 +102,24 @@ Write a function that prints a triangle, followed by a new line.
 * If size is 0 or less, the function should print only a new line
 * Use the character # to print the triangle
 
-# 
+# 11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic
+The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
+
+Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+
+* You are allowed to use the standard library
+* Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
+
+# 12. Numbers have life; they're not just symbols on paper
+Write a function that prints an integer.
+
+* Prototype: void print_number(int n);
+* You can only use _putchar function to print
+* You are not allowed to use long
+* You are not allowed to use arrays or pointers
+* You are not allowed to hard-code special values
+ 
+
+
+
 
