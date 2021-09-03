@@ -8,32 +8,28 @@
 
 void print_number(int n)
 {
-	int len, res, i, temp, expo;
+	int res, temp, expo;
 
-	res = n;
-	expo = len =  1;
-	if (res < 0)
+	if (n < 0)
 	{
-		res *= -1;
+		res = n * -1;
 		_putchar(45);
+	}
+	else
+	{
+		res = n;
 	}
 
 	temp = res;
+	expo = 1;
 	while (temp >= 10)
 	{
-		len++;
 		temp /= 10;
-	}
-
-	for (i = 1; i < len; i++)
-	{
 		expo *= 10;
 	}
 
-	while (expo > 1)
+	for (; expo >= 1; expo /= 10)
 	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
+		_putchar(((res / expo) % 10) + 48);
 	}
-	_putchar(res % 10 + '0');
 }
