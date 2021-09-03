@@ -15,7 +15,7 @@ void print_number(int n)
 	if (res < 0)
 	{
 		res *= -1;
-		_putchar('-');
+		_putchar(45);
 	}
 
 	temp = res;
