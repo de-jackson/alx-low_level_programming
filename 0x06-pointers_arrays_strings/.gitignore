@@ -1,4 +1,5 @@
 *~
 _putchar.c
 0-strcat
-1-strncat 
+1-strncat
+2-strncpy  
